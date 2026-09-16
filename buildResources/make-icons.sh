@@ -1,8 +1,8 @@
 #!/bin/bash
-SRC=../src/icon/OpenBlockDesktop.svg
-OUT_ICONSET=OpenBlockDesktop.iconset
-OUT_ICNS=OpenBlockDesktop.icns
-OUT_ICO=OpenBlockDesktop.ico
+SRC=../src/icon/YGrobot.svg
+OUT_ICONSET=YGrobot.iconset
+OUT_ICNS=YGrobot.icns
+OUT_ICO=YGrobot.ico
 TMP_ICO=tmp
 
 ICO_BASIC_SIZES="16 24 32 48 256"

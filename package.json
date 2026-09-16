@@ -1,8 +1,8 @@
 {
-  "name": "openblock-desktop",
-  "productName": "OpenBlockDesktop",
-  "description": "OpenBlock as a self-contained desktop application",
-  "author": "Openblock.cc Team <contact@openblock.cc> (http://www.openblock.cc/)",
+  "name": "ygrobot-desktop",
+  "productName": "YGrobot",
+  "description": "YGrobot graphical programming desktop application",
+  "author": "YGrobot Team",
   "version": "2.6.3",
   "license": "MIT",
   "scripts": {
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/openblockcc/openblock-desktop.git"
+    "url": "git+https://github.com/2778156779/ygrobot-desktop.git"
   },
   "dependencies": {
     "bytes": "^3.1.2",

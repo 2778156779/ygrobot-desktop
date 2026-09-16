@@ -3,15 +3,15 @@ directories:
   output: dist
 extraFiles: ['LICENSE', 'LICENSE.ScratchFoundation', 'TRADEMARK', "tools", "external-resources", 'firmwares', "drivers"]
 
-appId: openblock.cc.openblock-desktop
-productName: "OpenBlockDesktop"
+appId: com.ygrobot.desktop
+productName: "YGrobot"
 publish:
   - provider: github
-artifactName: "OpenBlock-Desktop_v${version}_${os}_${arch}.${ext}"
+artifactName: "YGrobot-Desktop_v${version}_${os}_${arch}.${ext}"
 
 fileAssociations:
   ext: ob
-  name: OpenBlock project file
+  name: YGrobot project file
   role: Editor
   icon: buildResources/OpenBlockFile.ico
 
@@ -27,13 +27,14 @@ mac:
         This app requires microphone access when recording sounds or detecting loudness.
   gatekeeperAssess: true
   hardenedRuntime: true
+  # Generate buildResources/YGrobot.icns from src/icon/YGrobot.svg before a macOS release.
   icon: buildResources/OpenBlockDesktop.icns
   provisioningProfile: embedded.provisionprofile
   target:
     - dmg
     # - mas
 dmg:
-  title: "OpenBlock-Desktop_${version}"
+  title: "YGrobot-Desktop_${version}"
   format: UDRO
 # mas:
 #   category: public.app-category.education
@@ -46,7 +47,7 @@ dmg:
 #   provisioningProfile: mas-dev.provisionprofile
 
 win:
-  icon: buildResources/OpenBlockDesktop.ico
+  icon: buildResources/YGrobot.ico
   target:
     # - appx
     - nsis
@@ -67,8 +68,8 @@ linux:
   desktop:
     entry:
       Encoding: UTF-8
-      Name: OpenBlockDesktop
-      Icon: openblock-desktop
+      Name: YGrobot
+      Icon: ygrobot-desktop
       Type: Application
       Terminal: false
   target:

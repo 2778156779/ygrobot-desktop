@@ -1,44 +1,21 @@
-# openblock-desktop
+# YGrobot Desktop
 
-[![Build and release](https://github.com/openblockcc/openblock-desktop/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/openblockcc/openblock-desktop/actions/workflows/build-and-release.yml)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/openblockcc/openblock-desktop)
-![Total downloads](https://img.shields.io/github/downloads/openblockcc/openblock-desktop/total)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fopenblockcc%2Fopenblock-desktop.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fopenblockcc%2Fopenblock-desktop?ref=badge_shield)
-[![Gitter](https://badges.gitter.im/openblockcc/community.svg)](https://gitter.im/openblockcc/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![ko-fi](https://img.shields.io/badge/donate-sponsors-ea4aaa.svg?logo=ko-fi)](https://ko-fi.com/X8X66DATO)
+YGrobot Desktop 是面向 Arduino Uno、经典 Arduino Nano 和 ESP32 系列的图形化编程桌面软件。
 
-OpenBlock as a standalone desktop application.
+本项目以公开的 OpenBlock Desktop 作为技术基础进行独立开发。产品功能、硬件支持、扩展、固件、构建和发布由 YGrobot 项目维护。
 
-![screenshot](./doc/screenshot.png)
-![screenshot2](./doc/screenshot2.png)
+## 当前开发范围
 
-## Getting Start
+- Arduino Uno R3
+- 经典 Arduino Nano（ATmega328P）
+- ESP32 Dev Module（首个 ESP32 基准板）
 
-Visit the wiki: [https://wiki.openblock.cc](https://wiki.openblock.cc)
+## 本地开发
 
-## Join chat
+项目使用 Electron、React、Webpack 和 Arduino CLI。为兼容当前依赖，开发环境使用项目目录下的 Node.js 16 工具链。
 
-- Gitter: [https://gitter.im/openblockcc/community](https://gitter.im/openblockcc/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+## 上游与许可证
 
-- QQ 群 (for chinese): 933484739
+项目包含来自 OpenBlock Desktop 的开源代码。上游地址为 <https://github.com/openblockcc/openblock-desktop>。
 
-## Donate
-
-Buy me a cup of coffee.
-
-- Ko-fi (PayPal):
-
-    [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X66DATO)
-
-- 支付宝:
-
-    ![alipayQRCode](./doc/alipayQRCode.png)
-
-## Bug Report
-
-You can submit the bug log in issues of this project.
-
-
-## License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fopenblockcc%2Fopenblock-desktop.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fopenblockcc%2Fopenblock-desktop?ref=badge_large)
+请保留仓库中的 [LICENSE](LICENSE) 与 [LICENSE.ScratchFoundation](LICENSE.ScratchFoundation) 文件，并在再发布时遵守其中的许可与商标要求。
